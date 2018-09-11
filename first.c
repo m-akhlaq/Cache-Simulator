@@ -84,7 +84,6 @@ int main(int argc, char const *argv[]){
   //  printf(" memory: %s dec: %lu tag: %d index :%d offset %d actual index: %lu num of sets: %d \n",memoryHexValue,tag,numOfTagBits,numOfIndexBits,numOfOffsetBits,index,number_of_sets);
   //  printf(" %s  %lu \n",memoryHexValue,tag);
 
-/*
     if (strcmp(cache_type,"direct")==0)
       directMappedCache(cache,tag,mode,index);
     else if (strcmp(cache_type,"assoc")==0)
@@ -92,7 +91,7 @@ int main(int argc, char const *argv[]){
     else if (strcmp(cache_type,"assoc:N")==0)
       NwayAssociativeCache(cache,tag,mode,index);
 
-*/
+
 
   }else{
       //do nothing
